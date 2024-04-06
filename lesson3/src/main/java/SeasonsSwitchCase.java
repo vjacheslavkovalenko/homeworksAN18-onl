@@ -1,10 +1,12 @@
-import java.util.Scanner;
-
 /*
  * Домашнее задание.
  ** Управляющие конструкции
  *** Задача 1. Написать программу для вывода названия поры года по номеру месяца.
+ *** При решении используйте оператор switch-case.
  */
+
+import java.util.Scanner;
+
 public class SeasonsSwitchCase {
 
     public static void main(String[] args) {
@@ -55,4 +57,5 @@ public class SeasonsSwitchCase {
                 System.out.println("Введён неверный номер месяца.");
         }
     }
+
 }
