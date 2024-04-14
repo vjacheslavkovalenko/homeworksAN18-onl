@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Exercise0 {
 
     public static void main(String[] args) {
-        int[] numbers = {1, 2, 3, 4, 10, 45, 18}; // пример массива целых чисел
+        int[] numbers = {1, 2, 3, 4, 10, 45, 18};
 
         Scanner scanner = new Scanner(System.in);
         System.out.print("Введите число: ");
