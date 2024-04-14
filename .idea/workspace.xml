@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6102854-ac55-427b-b22d-a6855b9a8afc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson4/src/main/java/Exercise1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson4/src/main/java/Exercise2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson4/src/main/java/Exercise3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson4/src/main/java/Exercise0.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4/src/main/java/Exercise0.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson4/src/main/java/Exercise1.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4/src/main/java/Exercise1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson4/src/main/java/Exercise2.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4/src/main/java/Exercise2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson4/src/main/java/Exercise3.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4/src/main/java/Exercise3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +55,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.CommitDialog&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Exercise2">
     <configuration name="Exercise0" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Exercise0" />
       <module name="homeworksAN18-onl.lesson4.main" />
@@ -65,8 +63,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Exercise1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercise1" />
+      <module name="homeworksAN18-onl.lesson4.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exercise2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercise2" />
+      <module name="homeworksAN18-onl.lesson4.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exercise3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercise3" />
+      <module name="homeworksAN18-onl.lesson4.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exercise2" />
+        <item itemvalue="Application.Exercise1" />
+        <item itemvalue="Application.Exercise3" />
         <item itemvalue="Application.Exercise0" />
       </list>
     </recent_temporary>
@@ -88,11 +110,20 @@
       <option name="project" value="LOCAL" />
       <updated>1713045411119</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Commit N2.&#10;Add all exercises.">
+      <option name="closed" value="true" />
+      <created>1713088265347</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713088265347</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit N1.&#10;Add Exercise N 0." />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit N1.&#10;Add Exercise N 0." />
+    <MESSAGE value="Commit N2.&#10;Add all exercises." />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit N2.&#10;Add all exercises." />
   </component>
 </project>
