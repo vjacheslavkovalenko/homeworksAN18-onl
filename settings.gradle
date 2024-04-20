@@ -1,3 +1,5 @@
 rootProject.name = 'homeworksAN18-onl'
 include 'lesson1'
+include 'lesson3'
+include 'lesson4'
 
