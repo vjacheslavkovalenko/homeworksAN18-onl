@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6102854-ac55-427b-b22d-a6855b9a8afc" name="Changes" comment="">
+    <list default="true" id="b6102854-ac55-427b-b22d-a6855b9a8afc" name="Changes" comment="Commit N2.&#10;Add all exercises.">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson4/src/main/java/Exercise1.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4/src/main/java/Exercise1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson4/src/main/java/Exercise2.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4/src/main/java/Exercise2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson4/src/main/java/Exercise3.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4/src/main/java/Exercise3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson5/src/main/java/Exercise1.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson5/src/main/java/Exercise1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +20,23 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="lesson5" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2eaj7h9PZofU896v7kmi9HLUOM7" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -29,13 +44,63 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;19&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.CommitDialog&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager" selected="Application.Person">
+    <configuration name="Exercise1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercise1" />
+      <module name="homeworksAN18-onl.lesson5.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exercise1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercise1" />
+      <module name="homeworksAN18-onl.lesson4.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exercise2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercise2" />
+      <module name="homeworksAN18-onl.lesson5.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exercise2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercise2" />
+      <module name="homeworksAN18-onl.lesson4.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Person" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Person" />
+      <module name="homeworksAN18-onl.lesson6.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Person" />
+        <item itemvalue="Application.Exercise2 (1)" />
+        <item itemvalue="Application.Exercise1 (1)" />
+        <item itemvalue="Application.Exercise2" />
+        <item itemvalue="Application.Exercise1" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -45,6 +110,69 @@
       <option name="presentableId" value="Default" />
       <updated>1712149420648</updated>
     </task>
+    <task id="LOCAL-00001" summary="Commit N1.&#10;Add Exercise N 0.">
+      <option name="closed" value="true" />
+      <created>1713045411119</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1713045411119</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Commit N2.&#10;Add all exercises.">
+      <option name="closed" value="true" />
+      <created>1713088265347</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713088265347</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Commit N1.&#10;Add Exercise1.">
+      <option name="closed" value="true" />
+      <created>1713648412078</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1713648412078</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Commit N2.&#10;Add Exercise2.">
+      <option name="closed" value="true" />
+      <created>1713650303829</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1713650303830</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="lesson6" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commit N1.&#10;Add Exercise N 0." />
+    <MESSAGE value="Commit N2.&#10;Add all exercises." />
+    <MESSAGE value="Commit N1.&#10;Add Exercise1." />
+    <MESSAGE value="Commit N2.&#10;Add Exercise2." />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit N2.&#10;Add Exercise2." />
   </component>
 </project>
