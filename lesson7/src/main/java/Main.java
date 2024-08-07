@@ -23,7 +23,7 @@
 
 public class Main {
     public static void main(String[] args) {
-        // Создаем пользователей
+        // Создаю пользователей
         User user1 = new User("Алексей", Profession.DIRECTOR, 5);
         User user2 = new User("Мария", Profession.PROGRAMMER, 3);
         User user3 = new User("Петр", Profession.HR, 7);
@@ -38,7 +38,7 @@ public class Main {
         System.out.println("Зарплата: " + user2.getName() + " (" + user2.getProfession().getName() + ") = " + salary2);
         System.out.println("Зарплата: " + user3.getName() + " (" + user3.getProfession().getName() + ") = " + salary3);
 
-        // Проверяем метод с доплатой
+        // Проверяю метод с доплатой
         double bonus = 500; // размер доплаты
         double salaryBonus1 = CalcSalary.calcSalaryBonus(bonus,user1);
         double salaryBonus2 = CalcSalary.calcSalaryBonus(bonus,user2);
@@ -48,11 +48,11 @@ public class Main {
         System.out.println("Зарплата: " + user2.getName() + " (с доплатой) = " + salaryBonus2 );
         System.out.println("Зарплата: " + user3.getName() + " (с доплатой) = " + salaryBonus3 );
 
-        // Создаем объекты Dog и Cat
+        // Создаю объекты Dog и Cat
         Voice dog = new Dog();
         Voice cat = new Cat();
 
-        // Вызываем метод doVoice() для каждого объекта
+        // Вызываю метод doVoice() для каждого объекта
         dog.doVoice(); // Вывод: Гав!
         cat.doVoice(); // Вывод: Мяу!
 
