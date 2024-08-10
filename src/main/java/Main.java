@@ -15,53 +15,8 @@
 
 public class Main {
 
-
-// Пользовательское исключение для неверного логина
-//class WrongLoginException extends Exception {
-//    public WrongLoginException() {
-//        super();
-//    }
-//
-//    public WrongLoginException(String message) {
-//        super(message);
-//    }
-//}
-
-// Пользовательское исключение для неверного пароля
-//class WrongPasswordException extends Exception {
-//    public WrongPasswordException() {
-//        super();
-//    }
-//
-//    public WrongPasswordException(String message) {
-//        super(message);
-//    }
-//}
-
-// Класс с методом для проверки логина и пароля
-//public class UserValidator {
-//
-//    public static void validateCredentials(String login, String password, String confirmPassword)
-//            throws WrongLoginException, WrongPasswordException {
-//
-//        // Проверка логина
-//        if (login.length() >= 20) {
-//            throw new WrongLoginException("Логин не должен превышать 20 символов.");
-//        }
-//
-//        // Проверка пароля
-//        if (password.length() >= 20) {
-//            throw new WrongPasswordException("Пароль не должен превышать 20 символов.");
-//        }
-//
-//        if (!password.equals(confirmPassword)) {
-//            throw new WrongPasswordException("Пароль и подтверждение пароля не совпадают.");
-//        }
-//    }
-
-    // Метод для тестирования
     public static void main(String[] args) {
-        // Примеры для проверки
+
         String login = "user123";
         String password = "pass123";
         String confirmPassword = "pass123";
@@ -73,8 +28,7 @@ public class Main {
             System.out.println("Ошибка: " + e.getMessage());
         }
 
-        // Тест с ошибочными данными
-        String invalidLogin = "thisLoginIsWayTooLongForTheSystem";
+        String invalidLogin = "thisLoginIsWayTooLonggggggggggggggggggggggggggggg";
         String invalidPassword = "short";
         String invalidConfirmPassword = "different";
 
