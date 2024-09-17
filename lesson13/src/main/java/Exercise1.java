@@ -1,130 +1,35 @@
-//Задание 1
-//В этом задании мы создадим классы Product, Manufacturer, Shop и реализуем функционал для работы с ними.
-//
-//
-
-
-//Описание программы
-//1.Классы Product, Manufacturer, Shop:
-//-Содержат поля для хранения информации о товарах, производителях и магазинах соответственно.
-//-Имеют конструкторы и геттеры для доступа к полям.
-//2.Класс ProductManagement:
-//-Создает список товаров, производителей и магазинов.
-//-Реализует функционал для решения задач:
-//--Определение самого дорогого и дешевого товара.
-//--Поиск товаров, доступных для доставки.
-//--Расчет средней стоимости товаров указанной категории.
-//--Поиск товаров определенного производителя.
-//--Поиск производителей из указанной страны.
-//--Поиск магазинов в конкретном городе.
-//--Поиск адреса магазина по номеру телефона.
-//--Поиск товаров указанного номера магазина.
-//--Создание Map с номерами магазинов и их номерами телефонов.
-//--Проверка, доступны ли для доставки все товары указанной категории.
-//--Подсчет количества магазинов.
-//--Вывод товаров, отсортированных по стоимости (от большего к меньшему).
-
-
+/*
+ * Домашнее задание.
+ ** Задание 13.1
+ *** Необходимо создать следующие объекты:
+ **** 1) Товар (поля - название, стоимость, категория (enum), возможность доставки (boolean), список магазинов где он есть в наличии, производитель).
+ **** 2) Производитель (название, страна).
+ **** 3) Магазин (номер, город, адрес, номер телефона).
+ ***
+ *** На вход мы получаем коллекцию всех товаров, у каждого из который указан производитель и список магазинов, где данный товар можно купить.
+ *** Должны быть некоторые товары, относящиеся к одному производителю. Некоторые товары должны относится к одному магазину.
+ ***
+ *** Необходимо выполнить:
+ **** 1) определить самый дорогой и дешевый товар
+ **** 2) найти все товары которые возможно доставить до покупателя
+ **** 3) посчитать среднюю стоимость товара указанной категории
+ **** 4) найти все товары определенного производителя
+ **** 5) найти всех названия производителей указанной страны
+ **** 6) найти все магазины конкретного города
+ **** 7) найти адрес магазина по указанному номеру телефона
+ **** 8) все товары указанного номера магазина
+ **** 9) составить map где ключ это номер магазина, а значение - это номер телефона данного магазина
+ **** 10) узнать все ли товары указанной категории можно доставить до покупателя
+ **** 11) посчитать количество магазинов
+ **** 12) вывести товары отсортированные по стоимости (от большего к меньшему)
+ */
 
 
 import java.util.*;
 import java.util.stream.Collectors;
 
-enum Category {
-    ELECTRONICS, CLOTHING, FURNITURE, BOOKS, TOYS
-}
 
-class Product {
-    private String name;
-    private double price;
-    private Category category;
-    private boolean deliverable;
-    private List<Shop> shops;
-    private Manufacturer manufacturer;
-
-    public Product(String name, double price, Category category, boolean deliverable, List<Shop> shops, Manufacturer manufacturer) {
-        this.name = name;
-        this.price = price;
-        this.category = category;
-        this.deliverable = deliverable;
-        this.shops = shops;
-        this.manufacturer = manufacturer;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public double getPrice() {
-        return price;
-    }
-
-    public Category getCategory() {
-        return category;
-    }
-
-    public boolean isDeliverable() {
-        return deliverable;
-    }
-
-    public List<Shop> getShops() {
-        return shops;
-    }
-
-    public Manufacturer getManufacturer() {
-        return manufacturer;
-    }
-}
-
-class Manufacturer {
-    private String name;
-    private String country;
-
-    public Manufacturer(String name, String country) {
-        this.name = name;
-        this.country = country;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public String getCountry() {
-        return country;
-    }
-}
-
-class Shop {
-    private int number;
-    private String city;
-    private String address;
-    private String phoneNumber;
-
-    public Shop(int number, String city, String address, String phoneNumber) {
-        this.number = number;
-        this.city = city;
-        this.address = address;
-        this.phoneNumber = phoneNumber;
-    }
-
-    public int getNumber() {
-        return number;
-    }
-
-    public String getCity() {
-        return city;
-    }
-
-    public String getAddress() {
-        return address;
-    }
-
-    public String getPhoneNumber() {
-        return phoneNumber;
-    }
-}
-
-public class ProductManagement {
+public class Exercise1 {
     public static void main(String[] args) {
         List<Product> products = new ArrayList<>();
 
